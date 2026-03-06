@@ -9,14 +9,14 @@ function Navbar() {
             <h1 className="text-2xl font-bold text-black">MyApp</h1>
           </div>
           <ul className="flex flex-nowrap items-center justify-center space-x-8">
-            <li className="text-black font-semibold cursor-pointer hover:text-blue-500 transition-all duration-120 hover:scale-110 text-lg ">Home</li>
-            <li className="text-black font-semibold cursor-pointer hover:text-blue-500 transition-all duration-120 hover:scale-110 text-lg ">Features</li>
-            <li className="text-black font-semibold cursor-pointer hover:text-blue-500 transition-all duration-120 hover:scale-110 text-lg whitespace-nowrap">How It Works</li>
-            <li className="text-black font-semibold cursor-pointer hover:text-blue-500 transition-all duration-120 hover:scale-110 text-lg">About</li>
-            <li className="text-black font-semibold cursor-pointer hover:text-blue-500 transition-all duration-120 hover:scale-110 text-lg ">Contact</li>
+            <li className="text-black font-semibold cursor-pointer hover:rounded-md px-2.5 py-2 hover:bg-linear-to-r from-blue-500 to-blue-700 hover:text-white transition-all duration-120 hover:scale-110 text-lg ">Home</li>
+            <li className="text-black font-semibold cursor-pointer hover:rounded-md px-2.5 py-2 hover:bg-linear-to-r from-blue-500 to-blue-700 hover:text-white transition-all duration-120 hover:scale-110 text-lg ">Features</li>
+            <li className="text-black font-semibold cursor-pointer hover:rounded-md px-2.5 py-2 hover:bg-linear-to-r from-blue-500 to-blue-700 hover:text-white transition-all duration-120 hover:scale-110 text-lg whitespace-nowrap">How It Works</li>
+            <li className="text-black font-semibold cursor-pointer hover:rounded-md px-2.5 py-2 hover:bg-linear-to-r from-blue-500 to-blue-700 hover:text-white transition-all duration-120 hover:scale-110 text-lg">About</li>
+            <li className="text-black font-semibold cursor-pointer hover:rounded-md px-2.5 py-2 hover:bg-linear-to-r from-blue-500 to-blue-700 hover:text-white transition-all duration-120 hover:scale-110 text-lg ">Contact</li>
             </ul>
           <div className="text-end px-4">
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer">Sign Up</button>
+            <button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-all duration-300 hover:scale-110 duration-100 cursor-pointer">Sign Up</button>
             </div>
         </div>
     </nav>
